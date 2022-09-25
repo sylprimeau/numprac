@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+body {
+	background-color: #333;
+	font-size: 16px;
+}
+
+.wrapper {
+	height: 100vh;
+}
+
+.scoreboard {
+	height: 15%;
+}
+
+.curr-level, .streak, .score {
+	background-color: blue;
+	margin: 0 auto;
+	height: 33.3%;
+	font-size: 1.5em;
+	padding-left: 0.5em;
+	color: white;
+	text-align: center;
+}
+
+.streak {
+	background-color: teal;
+}
+
+.score {
+	background-color: skyblue;
+}
+
+.interface {
+	height: 85%;
+	width: 320px;
+	margin: auto;
+	border: 0.1px solid transparent;
+}
+
+.number-display {
+	background-color: white;
+	color: black;
+	font-size: 3em;
+	line-height: 1.5em;
+	height: 1.5em;
+	width: 95%;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.number-display.incorrect {
+	color: red;
+}
+
+.number-pad, .number-pad * {
+	width: 248px;
+	height: 332px;
+	margin: 0 auto;
+}
+
+.number-pad.disabled, .number-pad.disabled * {
+	opacity: 0.7;
+	pointer-events: none;
+	cursor: not-allowed;
+}
+
+.number-btn {
+	float: left;
+	background-color: mediumblue;
+	color: white;
+	font-size: 3em;
+	height: 70px;
+	width: 70px;
+/*	border-radius: 50%;*/
+/*	border: 0.05em solid lightblue;*/
+	border: none;
+	box-sizing: border-box;
+	margin: 6px;
+}
+
+.clear-btn, .check-btn {
+	font-size: 1.2em;
+	background-color: green;
+}
+
+.clear-btn {
+	background-color: red;
+}
+
+.start-btn {
+	position: absolute;
+	width: 200px;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 2vh;
+	padding: 0.3em;
+}
+
+.audio {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
